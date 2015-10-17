@@ -1,0 +1,3 @@
+#!/bin/bash
+
+node --harmony_destructuring --harmony_spread_arrays --harmony_spreadcalls --harmony_arrow_functions --harmony_rest_parameters $*
