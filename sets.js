@@ -11,6 +11,7 @@ console.log(`  size now: ${set1.size}`);
 console.log(`Values in Sets are unique, add 1, NaN and 'b' to the same set:`);
 
 set1.add(1);
+set1.add(NaN);
 set1.add('b');
 console.log(`  size now: ${set1.size}`);
 
@@ -52,7 +53,7 @@ function compareSets(a, b) {
 console.log(`  set2 now has the same content as set1 had: ${compareSets(set1, set2)}`);
 set2.add('C');
 
-console.log(`  Added 'C' to set2, their content is nolonger the same: ${!compareSets(set1, set2)}`);
+console.log(`  Added 'C' to set2, their content is no longer the same: ${!compareSets(set1, set2)}`);
 
 console.log(`
 WeakSets:
