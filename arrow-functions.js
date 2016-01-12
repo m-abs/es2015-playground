@@ -13,7 +13,9 @@ const helper = {
 
 console.log('implicit return without {...}', helper.array.filter((v) => v % 2 === 0));
 console.log('No implicit return with {...}', helper.array.filter((v) => {
-  return v % 2 !== 0;
+  const res = v % 2;
+
+  return res !== 0;
 }));
 
 const obj = {

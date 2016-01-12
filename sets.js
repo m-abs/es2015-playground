@@ -19,6 +19,7 @@ console.log(`
 Check if a value is present in the set:
   2:   ${set1.has(2)}
   1:   ${set1.has(1)}
+  NaN: ${set1.has(NaN)}
   'a': ${set1.has('a')}
   'b': ${set1.has('b')}
   'C': ${set1.has('C')}
